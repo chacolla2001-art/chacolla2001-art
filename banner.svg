@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 270" role="img" aria-label="Pedro Chacolla — Software Developer">
+  <defs>
+    <linearGradient id="texto" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"><animate attributeName="stop-color" values="#22d3ee;#7c5cff;#f472b6;#22d3ee" dur="9s" repeatCount="indefinite"/></stop>
+      <stop offset="1" stop-color="#7c5cff"><animate attributeName="stop-color" values="#7c5cff;#f472b6;#22d3ee;#7c5cff" dur="9s" repeatCount="indefinite"/></stop>
+    </linearGradient>
+    <filter id="difuso" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="60"/></filter>
+    <clipPath id="marco"><rect width="1200" height="270" rx="24"/></clipPath>
+  </defs>
+  <g clip-path="url(#marco)">
+    <rect width="1200" height="270" fill="#070b16"/>
+    <circle cx="120" cy="20" r="190" fill="#7c5cff" opacity=".55" filter="url(#difuso)">
+      <animate attributeName="cx" values="120;260;120" dur="14s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1060" cy="250" r="170" fill="#22d3ee" opacity=".35" filter="url(#difuso)">
+      <animate attributeName="cx" values="1060;900;1060" dur="17s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="640" cy="330" r="150" fill="#34d399" opacity=".22" filter="url(#difuso)">
+      <animate attributeName="cy" values="330;280;330" dur="11s" repeatCount="indefinite"/>
+    </circle>
+    <g font-family="'Segoe UI', system-ui, -apple-system, Roboto, Arial, sans-serif">
+      <text x="64" y="118" font-size="62" font-weight="800" fill="#ffffff" letter-spacing="-1.5">Pedro Chacolla</text>
+      <text x="66" y="166" font-size="27" font-weight="700" fill="url(#texto)">Software Developer · Business apps and APIs</text>
+      <text x="66" y="212" font-size="18" fill="#9eabc6">La Paz, Bolivia (UTC−4) · English C1 · Spanish</text>
+    </g>
+    <g fill="none" stroke="#ffffff" stroke-opacity=".5" stroke-width="2" stroke-linecap="round">
+      <path d="M930 96l-22 22 22 22M990 96l22 22-22 22M970 84l-20 68">
+        <animate attributeName="stroke-opacity" values=".25;.7;.25" dur="4s" repeatCount="indefinite"/>
+      </path>
+    </g>
+  </g>
+</svg>
